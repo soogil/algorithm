@@ -1,4 +1,4 @@
-package apss.stack;
+package com.soogil.apss.stack;
 
 import java.io.BufferedReader;
 import java.io.IOException;

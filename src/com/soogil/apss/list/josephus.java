@@ -1,4 +1,4 @@
-package apss.list;
+package com.soogil.apss.list;
 
 import java.io.BufferedReader;
 import java.io.IOException;
