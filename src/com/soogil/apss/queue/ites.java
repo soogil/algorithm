@@ -53,11 +53,11 @@ public class ites {
         }
 
         for(int count = 0; count < testCase; count++) {
-            mod(k[count], n[count]);
+            checkSignal(k[count], n[count]);
         }
     }
 
-    private static void mod(int k, int n) {
+    private static void checkSignal(int k, int n) {
         Queue<Long> queue = new LinkedList<Long>();
 
         Signal signal = new Signal();
