@@ -36,6 +36,7 @@ public class bracket2 {
         while (inputCount < testCase) {
             String[] input = new String(bufferedReader.readLine()).split("");
             Stack<String > stack = new Stack<String>();
+
             for (String s : input) {
                 stack.push(s);
             }
@@ -53,8 +54,8 @@ public class bracket2 {
         boolean findBracket = false;
 
         String openBracket = bracket.pop();
-        while (bracket.size() != 0) {
 
+        while (bracket.size() != 0) {
             String closeBracket = bracket.pop();
             if(openBracket.equals("}") && closeBracket.equals("{")) findBracket = true;
             else if(openBracket.equals("]") && closeBracket.equals("[")) findBracket = true;

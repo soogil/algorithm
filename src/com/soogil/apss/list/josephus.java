@@ -61,6 +61,7 @@ public class josephus {
         }
 
         StringBuffer output = new StringBuffer();
+
         for (Integer value : totalList) output.append(value.toString()).append(" ");
 
         System.out.println(output);

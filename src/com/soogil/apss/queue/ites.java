@@ -1,6 +1,5 @@
 package com.soogil.apss.queue;
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -68,7 +67,6 @@ public class ites {
         long sum = queue.element();
 
         while (count < n) {
-
             if (sum < k) {
                 long next = signal.nextSignal();
                 sum += next;
