@@ -37,8 +37,7 @@ import java.util.StringTokenizer;
  * 1049
  * */
 
-public class ites {
-
+public class Ites {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int testCase = Integer.parseInt(bufferedReader.readLine());

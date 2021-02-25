@@ -23,8 +23,7 @@ import java.util.Stack;
  * YES
  * */
 
-public class bracket2 {
-
+public class Bracket2 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int testCase = Integer.parseInt(bufferedReader.readLine());

@@ -21,8 +21,7 @@ import java.util.*;
  * 11 26
  * */
 
-public class josephus {
-
+public class Josephus {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int testCase = Integer.parseInt(bufferedReader.readLine());
